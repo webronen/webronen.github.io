@@ -24,10 +24,11 @@ const loop = ( loop, rate ) => {
   rate = rate < 1 ? 1: rate > 30 ? 30: rate;
   const Tms = ~~( ( 1000 / rate ) + .5 );
   
-  let pastScreenTime = 0, screenFrameCount = 0, drawNewFrame = true,
-  renderFrameCount = 0, pastRenderTime = 0, renderFrameRate = 0;
+  let drawNewFrame = true, pastRenderTime = 0, screenFrameCount = 0,
+  pastScreenTime = 0, renderFrameCount = 0, renderFrameRate = 0;
   
   const render = () => {
+    
     if( drawNewFrame ) {
       
       drawNewFrame = false;
