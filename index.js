@@ -15,5 +15,5 @@ loop( ( display ) => {
     RENDER_FRAME_COUNT ${ display.renderFrameCount }
     RENDER_FRAME_RATE ${ display.renderFrameRate }\n
   `;
-  
+
 }, screenFrameRate );
