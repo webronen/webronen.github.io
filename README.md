@@ -8,7 +8,6 @@
     * Provides automatic development of the master branch.
   * Route 53
     * Provides domain and dns settings.
-    * Fullstack preview: Coming Soon!
 
 ## Objectives for frontend:
 * Semantic HTML5 Structure
@@ -25,5 +24,7 @@
   * Hosted from develop branch.
   * Only for frontend preview.
   * No backend functions.
+* Fullstack preview: Coming Soon!
+  * Updated each time the develop branch is merged with the master branch.
 
 *Objectives can be refined along the way.*
