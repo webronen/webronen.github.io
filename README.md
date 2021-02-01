@@ -13,13 +13,13 @@
 * Semantic HTML5 Structure
 * Responsive CSS Grid Layout
 
-## Tools used:
+## Tools to be used:
 * Amazon Web Services:
   * Cloud9 IDE
 * GitHub
 * Git
 
-## Curious?
+## Do you feel curious?
 * Frontend preview: https://webronen.github.io/
   * Hosted from develop branch.
   * Only for frontend preview.
