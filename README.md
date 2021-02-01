@@ -1,5 +1,5 @@
 # Webronen | Jarno Piironen
-## Fullstack reference for job search.
+## Basic fullstack reference for job search.
 ## Objectives for backend:
 * Amazon Web Services:
   * Elastic Beanstalk
