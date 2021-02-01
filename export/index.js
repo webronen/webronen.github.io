@@ -1,4 +1,4 @@
-import { setup, loop } from './export/begin.js';
+import { setup, loop } from './module/begin.js';
 
 setup( () => {
   
