@@ -22,8 +22,9 @@ const loop = ( loop, rate ) => {
   if( loopIsDefined ) return console.error( 'Loop is already defined.' );
   if( typeof loop !== 'function' ) return console.error( 'Invalid first argument type in loop. Valid type is function.' );
   if( typeof rate !== 'number' ) return console.error( 'Invalid second argument type in loop. Valid type is number.' );
-  if( !window.setTimeout ) console.error( 'Your browser does not support timeout method.' );
-  if( !window.requestAnimationFrame ) console.error( 'Your browser does not support animation frames.' );
+  if( !window.performance.now ) return console.error( 'Your browser does not support performance now method.' )
+  if( !window.setTimeout ) return console.error( 'Your browser does not support timeout method.' );
+  if( !window.requestAnimationFrame ) return console.error( 'Your browser does not support animation frame method.' );
   
   rate = rate < 1 ? 1: rate > 30 ? 30: rate;
   const Tms = ~~( ( 1000 / rate ) + .5 );
