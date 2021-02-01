@@ -6,6 +6,8 @@
     * Provides a Node.js environment for the application.
   * CodePipeline
     * Provides automatic development of the master branch.
+  * DynamoDB
+    * Provides a source of information for the application.
   * Route 53
     * Provides domain and dns settings.
 
